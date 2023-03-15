@@ -3555,11 +3555,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\OneDrive\\4. Sem\\Systemintegration\\Systemintegration\\Systemintegration\\Madplan\\BusinessLogicCore\\BusinessLogicCore.csproj",
+      "projectUniqueName": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\BusinessLogicCore\\BusinessLogicCore.csproj",
       "projectName": "BusinessLogicCore",
-      "projectPath": "D:\\Users\\OneDrive\\4. Sem\\Systemintegration\\Systemintegration\\Systemintegration\\Madplan\\BusinessLogicCore\\BusinessLogicCore.csproj",
+      "projectPath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\BusinessLogicCore\\BusinessLogicCore.csproj",
       "packagesPath": "C:\\Users\\Alin\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\OneDrive\\4. Sem\\Systemintegration\\Systemintegration\\Systemintegration\\Madplan\\BusinessLogicCore\\obj\\",
+      "outputPath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\BusinessLogicCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3576,8 +3576,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Users\\OneDrive\\4. Sem\\Systemintegration\\Systemintegration\\Systemintegration\\Madplan\\DataAccessCore\\DataAccessCore.csproj": {
-              "projectPath": "D:\\Users\\OneDrive\\4. Sem\\Systemintegration\\Systemintegration\\Systemintegration\\Madplan\\DataAccessCore\\DataAccessCore.csproj"
+            "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DataAccessCore\\DataAccessCore.csproj": {
+              "projectPath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DataAccessCore\\DataAccessCore.csproj"
             }
           }
         }
@@ -3623,7 +3623,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

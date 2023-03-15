@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Madplan",
+    "\\Madplan\\Madplan"
   ],
-  "SelectedNode": "\\D:\\Users\\OneDrive\\4. Sem\\Aflevering",
+  "SelectedNode": "\\Madplan\\Madplan\\MainWindow.xaml.cs",
   "PreviewInSolutionExplorer": false
 }

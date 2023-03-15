@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w6pypClJhUBrvMz4Rjv6govU+w2hTtjP2OhGIe8UnZz2t1tkqd5KWsah9INa5XC/Is8HbQ320Yj3H3/P9gABCw==",
+  "dgSpecHash": "qpwSoDkeW+Gg5QrssoN9AQZ4v9/jLPevikFHqtqAieq62KBDSv8RtKcnprSY88rP/J2AnsQPQ08GnpCiMf3yvQ==",
   "success": true,
-  "projectFilePath": "D:\\Users\\OneDrive\\4. Sem\\Systemintegration\\Systemintegration\\Systemintegration\\Madplan\\BusinessLogicCore\\BusinessLogicCore.csproj",
+  "projectFilePath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\BusinessLogicCore\\BusinessLogicCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alin\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Alin\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

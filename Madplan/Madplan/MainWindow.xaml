@@ -7,9 +7,29 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="33,42,0,0" VerticalAlignment="Top" Click="Button_Click"/>
-        <TextBox x:Name="Search" HorizontalAlignment="Left" Margin="129,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label x:Name="Ret_navn" Content="Label" HorizontalAlignment="Left" Margin="41,123,0,0" VerticalAlignment="Top" Height="32" Width="131"/>
-
+        <TabControl>
+            <TabItem Header="Madplan">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="34*"/>
+                        <ColumnDefinition Width="363*"/>
+                    </Grid.ColumnDefinitions>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Retter">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="104*"/>
+                        <ColumnDefinition Width="423*"/>
+                        <ColumnDefinition Width="267*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Center" Margin="0,34,0,0" VerticalAlignment="Top" Width="84" Click="btnAdd_Click" Height="20"/>
+                    <Button Content="Edit" HorizontalAlignment="Center" Margin="0,84,0,0" VerticalAlignment="Top" Width="84" Height="20"/>
+                    <Button Content="Delete" HorizontalAlignment="Center" Margin="0,59,0,0" VerticalAlignment="Top" Width="84" Height="20"/>
+                    <ListBox x:Name="RetterListBox" Grid.Column="1" ItemsSource="{Binding}" IsSynchronizedWithCurrentItem="True" Margin="10,0,20,0"/>
+                    <Button Content="Refresh" HorizontalAlignment="Center" Margin="0,109,0,0" VerticalAlignment="Top" Width="84" Height="20"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
     </Grid>
 </Window>

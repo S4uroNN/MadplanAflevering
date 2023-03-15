@@ -2,6 +2,7 @@
 using DTOCore.Model;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,20 +23,30 @@ namespace Madplan
     /// </summary>
     public partial class MainWindow : Window
     {
-       
+        private CarBLL _bll = new CarBLL();
+        private Car _ret;
+
+        private ObservableCollection<Car> _retList;
+
         public MainWindow()
         {
             InitializeComponent();
+            _retList = _bll.GetRetList();
+
+            updateList();
            
         }
 
-        RetBLL bll = new RetBLL();
-        Ret ret;
-
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void btnAdd_Click(object sender, RoutedEventArgs e)
         {
-            ret = bll.GetRet(Int32.Parse(Search.Text));
-            Ret_navn.Content = ret.Navn;
+            //AddWindow addWindow = new AddWindow();
+            //addWindow.Show();
+        }
+
+        private void updateList()
+        {
+            RetterListBox.DataContext = _retList;
+            RetterListBox.ItemsSource = _retList;
         }
     }
 }

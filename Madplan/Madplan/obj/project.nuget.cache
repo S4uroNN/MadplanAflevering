@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XCnKc09ME2vcavL5F/Zr/HXG4Hlfge+feY+n0kUJSYgeP91bYWmakPpUj1d+t24yXyLzOg7+n0q/FfS7vsoxZQ==",
+  "dgSpecHash": "iY2ETcA/ujUrt6/BOIn4BL90Pe9QQtgOqWv2wdFukuGx0RwNnTNVRkfX+L40HQHHn6jyWrbIUGmyX/76Q9JIrw==",
   "success": true,
-  "projectFilePath": "D:\\Users\\OneDrive\\4. Sem\\Systemintegration\\Systemintegration\\Systemintegration\\Madplan\\Madplan\\Madplan.csproj",
+  "projectFilePath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\Madplan\\Madplan.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alin\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Alin\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7tMfLUHH8F/S+EnIVBr6f642KXtRFAykmZlia9zHA8/AlF5N5FBRhK+zr+mJpGzFMt6QwcE8xj2yygxxBrJ5qw==",
+  "dgSpecHash": "C6+0H4T7mKMoB3kn064KFfkVAAFpsN5kNRjb/gCe9Nw+/S8J60QytzQm01S8HRWRZ8oyL+eiG38NITDQq0Gxdw==",
   "success": true,
-  "projectFilePath": "D:\\Users\\OneDrive\\4. Sem\\Systemintegration\\Systemintegration\\Systemintegration\\Madplan\\DataAccessCore\\DataAccessCore.csproj",
+  "projectFilePath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DataAccessCore\\DataAccessCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alin\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Alin\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
