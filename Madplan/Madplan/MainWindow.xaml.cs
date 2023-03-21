@@ -1,4 +1,5 @@
-﻿using BusinessLogicCore.BLL;
+﻿using BilhusUI;
+using BusinessLogicCore.BLL;
 using DTOCore.Model;
 using System;
 using System.Collections.Generic;
@@ -24,29 +25,28 @@ namespace Madplan
     public partial class MainWindow : Window
     {
         private CarBLL _bll = new CarBLL();
-        private Car _ret;
+        private Car _car;
 
-        private ObservableCollection<Car> _retList;
+        private ObservableCollection<Car> _carList;
 
         public MainWindow()
         {
             InitializeComponent();
-            _retList = _bll.GetRetList();
+            _carList = _bll.GetRetList();
+            
+            carList.ItemsSource = _carList;
+            mainGrid.DataContext = _carList;
 
-            updateList();
+
            
         }
 
         private void btnAdd_Click(object sender, RoutedEventArgs e)
         {
-            //AddWindow addWindow = new AddWindow();
-            //addWindow.Show();
+           addWindow window = new addWindow();  
+           window.ShowDialog();
         }
 
-        private void updateList()
-        {
-            RetterListBox.DataContext = _retList;
-            RetterListBox.ItemsSource = _retList;
-        }
+
     }
 }

@@ -3575,9 +3575,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\Madplan\\Madplan.csproj",
-      "projectName": "Madplan",
-      "projectPath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\Madplan\\Madplan.csproj",
+      "projectUniqueName": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\Madplan\\BilhusUI.csproj",
+      "projectName": "BilhusUI",
+      "projectPath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\Madplan\\BilhusUI.csproj",
       "packagesPath": "C:\\Users\\Alin\\.nuget\\packages\\",
       "outputPath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\Madplan\\obj\\",
       "projectStyle": "PackageReference",

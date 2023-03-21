@@ -6,18 +6,18 @@ namespace BusinessLogicCore.BLL
 {
     public class CarBLL
     {
-        public Car GetRet(int id)
+        public Car GetCar(string make)
         {
-            return CarRepos.GetRet(id);
+            return CarRepos.GetCar(make);
         }
         public ObservableCollection<Car> GetRetList() 
         {
             return CarRepos.GetToList();
         }
 
-        public void AddRet(Car ret)
+        public void AddRet(Car car)
         {
-            CarRepos.AddRet(ret);
+            CarRepos.AddRet(car);
         }
     }
 }

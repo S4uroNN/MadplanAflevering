@@ -7,8 +7,12 @@ namespace DTOCore.Model
     
     public class Car
     {
-       
-        public Car(int id, string make, string model, int milage, int owners)
+
+        public Car(int id,string make, string model)
+        {
+            ID = id;
+        }
+        public Car(int id, string make, string model, int? milage, int? owners)
         {
             ID = id;
             Make = make;
@@ -17,7 +21,7 @@ namespace DTOCore.Model
             Owners = owners;
 
         }
-        public Car(string make, string model, int milage)
+        public Car(string make, string model, int? milage)
         {
             Make = make;
             Model = model;
@@ -26,13 +30,13 @@ namespace DTOCore.Model
         }
         [Key]
         public int ID { get;set; }
-        public String Make { get; set; }
+        public string Make { get; set; }
         public string Model { get; set; }
-        public int Milage { get; set; }
-        public int Owners { get; set; }
+        public int? Milage { get; set; }
+        public int? Owners { get; set; }
         public override string ToString()
         {
-            return "Make: " + Make + " " +Model + " Milage: " + Milage + " Owners " + Owners;
+            return Make + " " + Model + " | Milage:  " + Milage;
         }
 
     }

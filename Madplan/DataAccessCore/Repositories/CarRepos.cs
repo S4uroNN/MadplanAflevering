@@ -12,12 +12,12 @@ namespace DataAccessCore.Repositories
 {
     public class CarRepos
     {
-        public static Car GetRet(int id)
+        public static Car GetCar(string make)
         {
             
             using (CarContext context = new CarContext())
             {
-                return CarMapper.Map(context.Cars.Find(id));
+                return CarMapper.Map(context.Cars.Find(make));
             }
         }
 
@@ -30,11 +30,11 @@ namespace DataAccessCore.Repositories
             }
         }
 
-        public static void AddRet(Car ret)
+        public static void AddRet(Car car)
         {
             using (CarContext context = new CarContext())
             {
-                context.Cars.Add(CarMapper.Map(ret));
+                context.Cars.Add(CarMapper.Map(car));
                 context.SaveChanges();
             }
         }

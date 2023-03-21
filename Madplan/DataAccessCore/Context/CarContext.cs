@@ -12,7 +12,7 @@ namespace DataAccessCore.Context
 {
     internal class CarContext : DbContext
     {
-        
+
         public CarContext()
         {
             bool created = Database.EnsureCreated();
@@ -24,6 +24,8 @@ namespace DataAccessCore.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            //optionsBuilder.UseSqlServer("Data Source=LAPTOP-U2JGUM3J\\SQLEXPRESS;Initial Catalog=Bilhus;Integrated Security=SSPI; TrustServerCertificate=true");
+
             optionsBuilder.UseSqlServer("Data Source=DESKTOP-LIOGET1\\SQLEXPRESS;Initial Catalog=Bilhus;Integrated Security=SSPI; TrustServerCertificate=true");
             optionsBuilder.LogTo(message => Debug.WriteLine(message));
         }

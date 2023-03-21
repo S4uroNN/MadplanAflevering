@@ -140,8 +140,6 @@ C:\Users\Alin\OneDrive\4. Sem\Aflevering\Madplan\Madplan\obj\Debug\net6.0-window
 C:\Users\Alin\OneDrive\4. Sem\Aflevering\Madplan\Madplan\obj\Debug\net6.0-windows\Madplan.pdb
 C:\Users\Alin\OneDrive\4. Sem\Aflevering\Madplan\Madplan\obj\Debug\net6.0-windows\Madplan.genruntimeconfig.cache
 C:\Users\Alin\OneDrive\4. Sem\Aflevering\Madplan\Madplan\obj\Debug\net6.0-windows\ref\Madplan.dll
-C:\Users\Alin\OneDrive\4. Sem\Aflevering\Madplan\Madplan\obj\Debug\net6.0-windows\AddWindow.g.cs
-C:\Users\Alin\OneDrive\4. Sem\Aflevering\Madplan\Madplan\obj\Debug\net6.0-windows\AddWindow.baml
 D:\Users\OneDrive\4. Sem\Aflevering\Madplan\Madplan\bin\Debug\net6.0-windows\Madplan.exe
 D:\Users\OneDrive\4. Sem\Aflevering\Madplan\Madplan\bin\Debug\net6.0-windows\Madplan.deps.json
 D:\Users\OneDrive\4. Sem\Aflevering\Madplan\Madplan\bin\Debug\net6.0-windows\Madplan.runtimeconfig.json
