@@ -25,16 +25,37 @@ namespace BilhusUI
         public addWindow()
         {
             InitializeComponent();
+            int id = _bll.GetCarList().Last().ID + 1;
+            txbID.Text = id.ToString();
+
         }
 
         private void addCar_Click(object sender, RoutedEventArgs e)
         {
+            int? milage = null;
+            int? owners = null;
+
+            int id = Int32.Parse(txbID.Text);
             string make = txtMake.Text;
             string model = txtModel.Text;
-            string milage = txtMilage.Text;
-            string owners = txtOwners.Text;
+            if(txtMilage.Text.Length > 0 )
+            {
+                milage = Int32.Parse(txtMilage.Text);
+            }
+            if(txtOwners.Text.Length > 0 )
+            {
+                owners = Int32.Parse(txtOwners.Text);
+            }
 
-            new 
+            Car car = new Car (make, model, milage, owners);
+
+            _bll.AddCar(car);
+            DialogResult = true;
+        }
+
+        private void close_Click(object sender, RoutedEventArgs e)
+        {
+            DialogResult = false;
         }
     }
 }

@@ -142,3 +142,5 @@ D:\Users\OneDrive\4. Sem\Aflevering\Madplan\Madplan\obj\Debug\net6.0-windows\Bil
 D:\Users\OneDrive\4. Sem\Aflevering\Madplan\Madplan\obj\Debug\net6.0-windows\ref\BilhusUI.dll
 D:\Users\OneDrive\4. Sem\Aflevering\Madplan\Madplan\obj\Debug\net6.0-windows\addWindow.g.cs
 D:\Users\OneDrive\4. Sem\Aflevering\Madplan\Madplan\obj\Debug\net6.0-windows\addWindow.baml
+C:\Users\Alin\OneDrive\4. Sem\Aflevering\Madplan\Madplan\obj\Debug\net6.0-windows\addWindow.baml
+C:\Users\Alin\OneDrive\4. Sem\Aflevering\Madplan\Madplan\obj\Debug\net6.0-windows\addWindow.g.cs

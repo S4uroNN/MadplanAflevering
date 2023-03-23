@@ -3535,11 +3535,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DataAccessCore\\DataAccessCore.csproj",
+      "projectUniqueName": "C:\\Users\\Alin\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DataAccessCore\\DataAccessCore.csproj",
       "projectName": "DataAccessCore",
-      "projectPath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DataAccessCore\\DataAccessCore.csproj",
+      "projectPath": "C:\\Users\\Alin\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DataAccessCore\\DataAccessCore.csproj",
       "packagesPath": "C:\\Users\\Alin\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DataAccessCore\\obj\\",
+      "outputPath": "C:\\Users\\Alin\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DataAccessCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3556,8 +3556,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DTOCore\\DTOCore.csproj": {
-              "projectPath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DTOCore\\DTOCore.csproj"
+            "C:\\Users\\Alin\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DTOCore\\DTOCore.csproj": {
+              "projectPath": "C:\\Users\\Alin\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DTOCore\\DTOCore.csproj"
             }
           }
         }
@@ -3603,7 +3603,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

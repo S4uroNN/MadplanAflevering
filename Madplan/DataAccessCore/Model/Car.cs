@@ -1,8 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Specialized;
+using System.ComponentModel.DataAnnotations;
 
 namespace DataAccessCore.Model
 {
-    internal class Car
+    internal class Car : INotifyCollectionChanged
     {
         [Key]
         public int ID { get; set; }
@@ -29,6 +30,6 @@ namespace DataAccessCore.Model
 
         }
 
-
+        public event NotifyCollectionChangedEventHandler? CollectionChanged;
     }
 }

@@ -4,6 +4,7 @@ using DTOCore.Model;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -32,20 +33,30 @@ namespace Madplan
         public MainWindow()
         {
             InitializeComponent();
-            _carList = _bll.GetRetList();
-            
-            carList.ItemsSource = _carList;
-            mainGrid.DataContext = _carList;
+            UpdateLists();
 
-
-           
         }
 
         private void btnAdd_Click(object sender, RoutedEventArgs e)
         {
-           addWindow window = new addWindow();  
-           window.ShowDialog();
+            addWindow window = new addWindow();
+            window.ShowDialog();
+            
+            UpdateLists();
         }
+
+
+
+        private void UpdateLists()
+        {
+            _carList = _bll.GetCarList();
+            carList.ItemsSource = null;
+            carList.ItemsSource = _carList;
+            mainGrid.DataContext = _carList;
+
+        }
+
+
 
 
     }

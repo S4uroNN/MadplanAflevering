@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Users\OneDrive\4. Sem\Aflevering\Madplan\Madplan\obj\Debug\net6.0-windows\
+C:\Users\Alin\OneDrive\4. Sem\Aflevering\Madplan\Madplan\obj\Debug\net6.0-windows\
 BilhusUI
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-D:\Users\OneDrive\4. Sem\Aflevering\Madplan\Madplan\App.xaml
-2755579304
+C:\Users\Alin\OneDrive\4. Sem\Aflevering\Madplan\Madplan\App.xaml
+31996747211
 
-6-1489559225
-2251310500176
-addWindow.xaml;MainWindow.xaml;
+7-1834841843
+225399462875
+AddWindow.xaml;EditWindow.xaml;MainWindow.xaml;
 
 True
 

@@ -24,9 +24,9 @@ namespace DataAccessCore.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            //optionsBuilder.UseSqlServer("Data Source=LAPTOP-U2JGUM3J\\SQLEXPRESS;Initial Catalog=Bilhus;Integrated Security=SSPI; TrustServerCertificate=true");
+            optionsBuilder.UseSqlServer("Data Source=LAPTOP-U2JGUM3J\\SQLEXPRESS;Initial Catalog=Bilhus1;Integrated Security=SSPI; TrustServerCertificate=true");
 
-            optionsBuilder.UseSqlServer("Data Source=DESKTOP-LIOGET1\\SQLEXPRESS;Initial Catalog=Bilhus;Integrated Security=SSPI; TrustServerCertificate=true");
+            //optionsBuilder.UseSqlServer("Data Source=DESKTOP-LIOGET1\\SQLEXPRESS;Initial Catalog=Bilhus1;Integrated Security=SSPI; TrustServerCertificate=true");
             optionsBuilder.LogTo(message => Debug.WriteLine(message));
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)

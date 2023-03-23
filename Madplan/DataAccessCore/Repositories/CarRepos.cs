@@ -30,7 +30,7 @@ namespace DataAccessCore.Repositories
             }
         }
 
-        public static void AddRet(Car car)
+        public static void AddCar(Car car)
         {
             using (CarContext context = new CarContext())
             {

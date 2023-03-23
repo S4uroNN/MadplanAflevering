@@ -10,14 +10,14 @@ namespace BusinessLogicCore.BLL
         {
             return CarRepos.GetCar(make);
         }
-        public ObservableCollection<Car> GetRetList() 
+        public ObservableCollection<Car> GetCarList() 
         {
             return CarRepos.GetToList();
         }
 
-        public void AddRet(Car car)
+        public void AddCar(Car car)
         {
-            CarRepos.AddRet(car);
+            CarRepos.AddCar(car);
         }
     }
 }
