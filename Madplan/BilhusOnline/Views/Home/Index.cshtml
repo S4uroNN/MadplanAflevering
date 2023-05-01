@@ -1,6 +1,6 @@
 ﻿
 @{
-    
+
 }
 
 <!DOCTYPE html>
@@ -11,8 +11,22 @@
     <title>Index</title>
 </head>
 <body>
-    <div>
-        Hello?
+
+   
+    <div id="Inventory">
+        <h4>Inventory</h4>
+        <table>
+            <thead>
+                <tr>
+                    @ViewBag.Cars
+                    <th>Make</th>
+                    <th>Model</th>
+                    <th>Milage</th>
+                </tr>
+            </thead>
+
+        </table>
+        
     </div>
 </body>
 </html>

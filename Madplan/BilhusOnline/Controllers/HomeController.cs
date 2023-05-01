@@ -5,12 +5,12 @@ namespace BilhusOnline.Controllers
 {
     public class HomeController : Controller
     {
-        private CarBLL _bll = new CarBLL();
+        public CarBLL _bll = new CarBLL();
 
         [HttpGet]
         public IActionResult Index()
         {
-
+            ViewBag.Cars = _bll.GetCarList();
             return View();
         }
         [HttpPost]

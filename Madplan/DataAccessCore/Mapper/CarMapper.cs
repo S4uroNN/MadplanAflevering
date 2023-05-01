@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,19 +14,20 @@ namespace DataAccessCore.Mapper
     {
         public static DTOCore.Model.Car Map(Car car)
         {
-            return new DTOCore.Model.Car(car.ID, car.Make, car.Model, car.Milage, car.Owners);
+            return new DTOCore.Model.Car(car.ID, car.Make, car.Model, car.Milage,car.Year,car.Synet);
         }
         public static Car Map(DTOCore.Model.Car car)
         {
-            return new Car(car.ID, car.Make, car.Model, car.Milage, car.Owners);
+            return new Car(car.ID, car.Make, car.Model, car.Milage, car.Year, car.Synet);
         }
 
-        public static ObservableCollection<DTOCore.Model.Car> Map(List<Car> rets)
+
+        public static ObservableCollection<DTOCore.Model.Car> Map(List<Car> cars)
         {
             ObservableCollection<DTOCore.Model.Car> retur = new ObservableCollection<DTOCore.Model.Car>();
-            foreach (Car ret in rets)
+            foreach (Car car in cars)
             {
-                retur.Add(CarMapper.Map(ret));
+                retur.Add(CarMapper.Map(car));
             }
             return retur;
         }
@@ -35,7 +37,7 @@ namespace DataAccessCore.Mapper
             datacar.Make = car.Make;
             datacar.Model = car.Model;
             datacar.Milage = car.Milage;
-            datacar.Owners = car.Owners;
+            datacar.Synet = car.Synet;
         }
 
 

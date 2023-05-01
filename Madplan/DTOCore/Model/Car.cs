@@ -6,49 +6,76 @@ using System.Diagnostics.CodeAnalysis;
 namespace DTOCore.Model
 {
 
-    public class Car : INotifyCollectionChanged
+    public class Car
+
     {
-
-        public Car(int id, string make, string model)
-        {
-            ID = id;
-        }
-        public Car(int id, string make, string model, int? milage, int? owners)
-        {
-            ID = id;
-            Make = make;
-            Model = model;
-            Milage = milage;
-            Owners = owners;
-
-        }
-        public Car(string make, string model, int? milage)
-        {
-            Make = make;
-            Model = model;
-            Milage = milage;
-
-        }
-        public Car(string make, string model, int? milage, int? owners)
-        {
-            Make = make;
-            Model = model;
-            Milage = milage;
-            Owners = owners;
-
-        }
         [Key]
         public int ID { get; set; }
         public string Make { get; set; }
         public string Model { get; set; }
         public int? Milage { get; set; }
-        public int? Owners { get; set; }
+        //public List<Person>? Owners { get; set; }
 
-        public event NotifyCollectionChangedEventHandler? CollectionChanged;
+        public int Year { get; set; }
+        public DateTime? Synet { get; set; }
+        //public Service Service { get; set; }
+
+
+        public Car(int id, string make, string model, int? milage, int year, DateTime? synet)
+        {
+            ID = id;
+            Make = make;
+            Model = model;
+            Milage = milage;
+            Year = year;
+            Synet = synet;
+        }
+        public Car(string make, string model, int? milage, int year, DateTime? synet)
+        {
+            Make = make;
+            Model = model;
+            Milage = milage;
+            Year = year;
+            Synet = synet;
+        }
+
+        //public void SetService(Service service)
+        //{
+        //    if (Service != service)
+        //    {
+        //        Service = service;
+        //    }
+        //}
+
+        //public void RemoveService(Service service)
+        //{
+        //    if (Service != null)
+        //    {
+        //        Service = null;
+        //    }
+        //}
+
+        //public void addPerson(Person person)
+        //{
+        //    if (!Owners.Contains(person))
+        //    {
+        //        Owners.Add(person);
+        //    }
+        //}
+
+        //public void removePerson(Person person)
+        //{
+        //    if (Owners.Contains(person))
+        //    {
+        //        Owners.Remove(person);
+        //    }
+        //}
+
+
 
         public override string ToString()
         {
-            return Make + " " + Model + " | Milage:  " + Milage;
+            return Make + " " + Model + " Year: " + Year + " | Milage:  " + Milage;
         }
 
     }

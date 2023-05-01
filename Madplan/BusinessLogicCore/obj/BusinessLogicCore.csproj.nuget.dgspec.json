@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alin\\OneDrive\\4. Sem\\Aflevering\\Madplan\\BusinessLogicCore\\BusinessLogicCore.csproj": {}
+    "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\BusinessLogicCore\\BusinessLogicCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alin\\OneDrive\\4. Sem\\Aflevering\\Madplan\\BusinessLogicCore\\BusinessLogicCore.csproj": {
+    "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\BusinessLogicCore\\BusinessLogicCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alin\\OneDrive\\4. Sem\\Aflevering\\Madplan\\BusinessLogicCore\\BusinessLogicCore.csproj",
+        "projectUniqueName": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\BusinessLogicCore\\BusinessLogicCore.csproj",
         "projectName": "BusinessLogicCore",
-        "projectPath": "C:\\Users\\Alin\\OneDrive\\4. Sem\\Aflevering\\Madplan\\BusinessLogicCore\\BusinessLogicCore.csproj",
+        "projectPath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\BusinessLogicCore\\BusinessLogicCore.csproj",
         "packagesPath": "C:\\Users\\Alin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alin\\OneDrive\\4. Sem\\Aflevering\\Madplan\\BusinessLogicCore\\obj\\",
+        "outputPath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\BusinessLogicCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Alin\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DataAccessCore\\DataAccessCore.csproj": {
-                "projectPath": "C:\\Users\\Alin\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DataAccessCore\\DataAccessCore.csproj"
+              "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DataAccessCore\\DataAccessCore.csproj": {
+                "projectPath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DataAccessCore\\DataAccessCore.csproj"
               }
             }
           }
@@ -46,17 +46,17 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.5, )"
             }
           },
           "imports": [
@@ -75,18 +75,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Alin\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DataAccessCore\\DataAccessCore.csproj": {
+    "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DataAccessCore\\DataAccessCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alin\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DataAccessCore\\DataAccessCore.csproj",
+        "projectUniqueName": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DataAccessCore\\DataAccessCore.csproj",
         "projectName": "DataAccessCore",
-        "projectPath": "C:\\Users\\Alin\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DataAccessCore\\DataAccessCore.csproj",
+        "projectPath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DataAccessCore\\DataAccessCore.csproj",
         "packagesPath": "C:\\Users\\Alin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alin\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DataAccessCore\\obj\\",
+        "outputPath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DataAccessCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -103,8 +103,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Alin\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DTOCore\\DTOCore.csproj": {
-                "projectPath": "C:\\Users\\Alin\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DTOCore\\DTOCore.csproj"
+              "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DTOCore\\DTOCore.csproj": {
+                "projectPath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DTOCore\\DTOCore.csproj"
               }
             }
           }
@@ -121,17 +121,17 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.5, )"
             }
           },
           "imports": [
@@ -150,18 +150,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Alin\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DTOCore\\DTOCore.csproj": {
+    "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DTOCore\\DTOCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alin\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DTOCore\\DTOCore.csproj",
+        "projectUniqueName": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DTOCore\\DTOCore.csproj",
         "projectName": "DTOCore",
-        "projectPath": "C:\\Users\\Alin\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DTOCore\\DTOCore.csproj",
+        "projectPath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DTOCore\\DTOCore.csproj",
         "packagesPath": "C:\\Users\\Alin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alin\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DTOCore\\obj\\",
+        "outputPath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DTOCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -192,17 +192,17 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.5, )"
             }
           },
           "imports": [
@@ -221,7 +221,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

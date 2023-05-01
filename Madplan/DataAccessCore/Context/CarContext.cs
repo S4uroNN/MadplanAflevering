@@ -24,22 +24,24 @@ namespace DataAccessCore.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=LAPTOP-U2JGUM3J\\SQLEXPRESS;Initial Catalog=Bilhus1;Integrated Security=SSPI; TrustServerCertificate=true");
+            //optionsBuilder.UseSqlServer("Data Source=LAPTOP-U2JGUM3J\\SQLEXPRESS;Initial Catalog=Bilhus;Integrated Security=SSPI; TrustServerCertificate=true");
 
-            //optionsBuilder.UseSqlServer("Data Source=DESKTOP-LIOGET1\\SQLEXPRESS;Initial Catalog=Bilhus1;Integrated Security=SSPI; TrustServerCertificate=true");
+            optionsBuilder.UseSqlServer("Data Source=DESKTOP-LIOGET1\\SQLEXPRESS;Initial Catalog=Bilhus1;Integrated Security=SSPI; TrustServerCertificate=true");
             optionsBuilder.LogTo(message => Debug.WriteLine(message));
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Car>().HasData(new Car[] {
-                new Car{ID=1,Make="Hyundai",Model="i30", Milage=555, Owners=1},
-                new Car{ID=2,Make="Ford",Model="Kuga", Milage=11000, Owners=2},
-                new Car{ID=3,Make="Hyundai",Model="i20", Milage=5, Owners=0}
+                new Car{ID=1,Make="Hyundai",Model="i30",Year= 2016, Milage=250000, Synet= new DateTime(2023,04,01)},
+                new Car{ID=2,Make="Ford",Model="Kuga",Year= 2016, Milage=114000, Synet= new DateTime(2023,04,10)},
+                new Car{ID=3,Make="Hyundai",Model="i20",Year= 2023, Milage=5},
             });
         }
 
 
         public DbSet<Car> Cars { get; set; }
+        public DbSet<Person> Owners { get; set; }
+        public DbSet<Service> Services {get; set; }
 
     }
 }

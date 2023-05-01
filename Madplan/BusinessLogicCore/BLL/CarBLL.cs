@@ -10,7 +10,7 @@ namespace BusinessLogicCore.BLL
         {
             return CarRepos.GetCar(make);
         }
-        public ObservableCollection<Car> GetCarList() 
+        public ObservableCollection<Car> GetCarList()
         {
             return CarRepos.GetToList();
         }
@@ -18,6 +18,11 @@ namespace BusinessLogicCore.BLL
         public void AddCar(Car car)
         {
             CarRepos.AddCar(car);
+        }
+
+        public void RemoveCar(Car car)
+        {
+            CarRepos.DeleteCar(car);
         }
     }
 }

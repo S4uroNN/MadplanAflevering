@@ -5,29 +5,35 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Madplan"
         mc:Ignorable="d"
+        ResizeMode="CanMinimize"
         Title="MainWindow" Height="500" Width="800">
     <Grid x:Name="mainGrid">
         <TabControl>
-            <TabItem Header="Inventory">
-                <Grid x:Name="carsList" Background="#FFE5E5E5" Margin="-7,0,-3,0" Height="418">
+            <TabItem Header="Salg">
+                <Grid x:Name="carsList" Background="#FFE5E5E5" Margin="-7,0,-3,0" Height="445">
                     <Label Content="Cars" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,0,0,0"/>
-                    <ListView x:Name="carList" Margin="10,26,387,10" RenderTransformOrigin="0.496,0.49" IsSynchronizedWithCurrentItem="True"/>
-                    <TextBox x:Name="makeTxtbox" HorizontalAlignment="Left" Margin="586,45,0,0" TextWrapping="Wrap" Text="{Binding Path=Make}" VerticalAlignment="Top" Width="162">
+                    <ListView x:Name="carList" Margin="10,26,390,22" RenderTransformOrigin="0.496,0.49" IsSynchronizedWithCurrentItem="True"/>
+                    <TextBox x:Name="makeTxtbox" HorizontalAlignment="Left" Margin="586,45,0,0" TextWrapping="Wrap" Text="{Binding Path=Make}" VerticalAlignment="Top" Width="162" IsReadOnly="True">
                     </TextBox>
-                    <TextBox x:Name="modelTxt" HorizontalAlignment="Left" Margin="585,76,0,0" TextWrapping="Wrap" Text="{Binding Path=Model}" VerticalAlignment="Top" Width="163"/>
-                    <TextBox x:Name="milageTxt" HorizontalAlignment="Left" Margin="585,107,0,0" TextWrapping="Wrap" Text="{Binding Path=Milage}" VerticalAlignment="Top" Width="163"/>
-                    <TextBox x:Name="ownersTxt" HorizontalAlignment="Left" Margin="585,140,0,0" TextWrapping="Wrap" Text="{Binding Path=Owners}" VerticalAlignment="Top" Width="163"/>
+                    <TextBox x:Name="modelTxt" HorizontalAlignment="Left" Margin="585,76,0,0" TextWrapping="Wrap" Text="{Binding Path=Model}" VerticalAlignment="Top" Width="163" IsReadOnly="True" />
+                    <TextBox x:Name="milageTxt" HorizontalAlignment="Left" Margin="585,170,0,0" TextWrapping="Wrap" Text="{Binding Path=Milage}" VerticalAlignment="Top" Width="163" IsReadOnly="True"/>
+                    <TextBox x:Name="synetTxt" HorizontalAlignment="Left" Margin="586,139,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="163" IsReadOnly="True"/>
+                    <TextBox x:Name="ownersTxt" HorizontalAlignment="Left" Margin="585,203,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="163" IsReadOnly="True"/>
                     <Label Content="Make: " HorizontalAlignment="Left" Margin="487,41,0,0" VerticalAlignment="Top"/>
                     <Label Content="Model: " HorizontalAlignment="Left" Margin="487,72,0,0" VerticalAlignment="Top"/>
-                    <Label Content="Milage: " HorizontalAlignment="Left" Margin="487,103,0,0" VerticalAlignment="Top"/>
-                    <Label Content="Owners: " HorizontalAlignment="Left" Margin="487,136,0,0" VerticalAlignment="Top"/>
-                    <Button x:Name="btnAdd" Content="Add Car" HorizontalAlignment="Left" Margin="487,268,0,0" VerticalAlignment="Top" Height="83" Width="128" Click="btnAdd_Click"/>
-                    <Button x:Name="btnEdit" Content="Edit Car" HorizontalAlignment="Left" Margin="620,268,0,0" VerticalAlignment="Top" Height="83" Width="128"/>
-                    <Button x:Name="btnDelete" Content="Delete Car" HorizontalAlignment="Left" Margin="487,356,0,0" VerticalAlignment="Top" Width="261"/>
+                    <Label Content="Milage: " HorizontalAlignment="Left" Margin="487,166,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Owners: " HorizontalAlignment="Left" Margin="487,199,0,0" VerticalAlignment="Top"/>
+                    <Button x:Name="btnAdd" Content="Add Car" HorizontalAlignment="Left" Margin="488,303,0,0" VerticalAlignment="Top" Height="42" Width="261" Click="btnAdd_Click"/>
+                    <Button x:Name="btnEdit" Content="Edit Car" HorizontalAlignment="Left" Margin="488,350,0,0" VerticalAlignment="Top" Height="36" Width="261" Click="btnEdit_Click"/>
+                    <Button x:Name="btnDelete" Content="Delete Car" HorizontalAlignment="Left" Margin="488,391,0,0" VerticalAlignment="Top" Width="261" Click="btnDelete_Click" Height="32"/>
+                    <Label x:Name="yearLabel" Content="Year" HorizontalAlignment="Left" Margin="487,103,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="yearTxt" HorizontalAlignment="Left" Margin="585,107,0,0" TextWrapping="Wrap" Text="{Binding Year}" VerticalAlignment="Top" Width="163" IsReadOnly="True"/>
+                    <Label x:Name="yearSynet" Content="MOT: " HorizontalAlignment="Left" Margin="487,135,0,0" VerticalAlignment="Top"/>
+
 
                 </Grid>
             </TabItem>
-            <TabItem Header="TabItem">
+            <TabItem Header="Service">
                 <Grid Background="#FFE5E5E5"/>
             </TabItem>
         </TabControl>

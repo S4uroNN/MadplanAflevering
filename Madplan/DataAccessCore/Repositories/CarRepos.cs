@@ -1,6 +1,7 @@
 ﻿using DataAccessCore.Context;
 using DataAccessCore.Mapper;
 using DTOCore.Model;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -21,12 +22,12 @@ namespace DataAccessCore.Repositories
             }
         }
 
-        public static ObservableCollection<Car> GetToList() 
+        public static ObservableCollection<Car> GetToList()
         {
-            using(CarContext context = new CarContext())
+            using (CarContext context = new CarContext())
             {
                 return CarMapper.Map(context.Cars.ToList());
-     
+
             }
         }
 
@@ -35,6 +36,27 @@ namespace DataAccessCore.Repositories
             using (CarContext context = new CarContext())
             {
                 context.Cars.Add(CarMapper.Map(car));
+                context.SaveChanges();
+            }
+        }
+
+        public static void EditCar(Car car)
+        {
+            using(CarContext context = new CarContext())
+            {
+                Model.Car datacar = context.Cars.Find(car.ID);
+                CarMapper.Update(car, datacar);
+
+                context.SaveChanges();
+            }
+        }
+
+        public static void DeleteCar(Car car) 
+        {
+           using(CarContext context = new CarContext())
+            {
+                Model.Car datacar = context.Cars.Find(car.ID);
+                context.Cars.Remove(datacar);
                 context.SaveChanges();
             }
         }

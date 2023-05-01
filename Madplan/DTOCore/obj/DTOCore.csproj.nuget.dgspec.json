@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alin\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DTOCore\\DTOCore.csproj": {}
+    "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DTOCore\\DTOCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alin\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DTOCore\\DTOCore.csproj": {
+    "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DTOCore\\DTOCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alin\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DTOCore\\DTOCore.csproj",
+        "projectUniqueName": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DTOCore\\DTOCore.csproj",
         "projectName": "DTOCore",
-        "projectPath": "C:\\Users\\Alin\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DTOCore\\DTOCore.csproj",
+        "projectPath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DTOCore\\DTOCore.csproj",
         "packagesPath": "C:\\Users\\Alin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alin\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DTOCore\\obj\\",
+        "outputPath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DTOCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,17 +42,17 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.5, )"
             }
           },
           "imports": [
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

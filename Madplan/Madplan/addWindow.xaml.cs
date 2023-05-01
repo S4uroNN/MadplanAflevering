@@ -25,20 +25,22 @@ namespace BilhusUI
         public addWindow()
         {
             InitializeComponent();
-            int id = _bll.GetCarList().Last().ID + 1;
-            txbID.Text = id.ToString();
+            //int id = _bll.GetCarList().Last().ID + 1;
+            //txbID.Text = id.ToString();
 
         }
 
         private void addCar_Click(object sender, RoutedEventArgs e)
         {
-            int? milage = null;
-            int? owners = null;
-
+            
             int id = Int32.Parse(txbID.Text);
             string make = txtMake.Text;
             string model = txtModel.Text;
-            if(txtMilage.Text.Length > 0 )
+            int? milage = null;
+            int? owners = null;
+            int year = 0;
+            DateTime synet = dpMOT.SelectedDate.Value;
+            if (txtMilage.Text.Length > 0 )
             {
                 milage = Int32.Parse(txtMilage.Text);
             }
@@ -46,8 +48,12 @@ namespace BilhusUI
             {
                 owners = Int32.Parse(txtOwners.Text);
             }
+            if(txtYear.Text.Length > 0)
+            {
+                year = Int32.Parse(txtYear.Text);
+            }
 
-            Car car = new Car (make, model, milage, owners);
+            Car car = new Car (make, model, milage,year ,synet);
 
             _bll.AddCar(car);
             DialogResult = true;

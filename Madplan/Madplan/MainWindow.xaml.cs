@@ -29,7 +29,7 @@ namespace Madplan
         private Car _car;
 
         private ObservableCollection<Car> _carList;
-
+       
         public MainWindow()
         {
             InitializeComponent();
@@ -45,6 +45,19 @@ namespace Madplan
             UpdateLists();
         }
 
+        private void btnDelete_Click(object sender, RoutedEventArgs e)
+        {
+            _bll.RemoveCar(((Car)carList.SelectedItem));
+            UpdateLists();
+        }
+
+        private void btnEdit_Click(object sender, RoutedEventArgs e)
+        {
+            EditWindow editWindow = new EditWindow((Car)carList.SelectedItem);
+            editWindow.ShowDialog();
+            UpdateLists();
+        }
+
 
 
         private void UpdateLists()
@@ -56,8 +69,6 @@ namespace Madplan
 
         }
 
-
-
-
+        
     }
 }

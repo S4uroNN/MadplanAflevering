@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BilhusOnline",
+    "\\BilhusOnline\\Controllers",
+    "\\BilhusOnline\\Properties",
+    "\\BusinessLogicCore\\BLL",
+    "\\DataAccessCore\\Context",
+    "\\DTOCore\\Model"
+  ],
+  "SelectedNode": "\\Madplan.sln",
+  "PreviewInSolutionExplorer": false
+}

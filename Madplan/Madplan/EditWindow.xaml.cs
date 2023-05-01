@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DTOCore.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +20,27 @@ namespace BilhusUI
     /// </summary>
     public partial class EditWindow : Window
     {
+        Car car = null;
+
         public EditWindow()
         {
             InitializeComponent();
+        }
+        public EditWindow(Car car)
+        {
+            this.car = car;
+            InitializeComponent();
+            editGrid.DataContext = car;
+        }
+
+        private void Cancel_Click(object sender, RoutedEventArgs e)
+        {
+            DialogResult = false;
+        }
+
+        private void btnConfirm_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
