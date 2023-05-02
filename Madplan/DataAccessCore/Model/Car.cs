@@ -10,11 +10,13 @@ namespace DataAccessCore.Model
         public string Make { get; set; }
         public string Model { get; set; }
         public int? Milage { get; set; }
-        //public List<Person>? Owners { get; set; }
+        public List<Person>? Owners { get; set; }
         public int Year { get; set; }
         public DateTime? Synet { get; set; }
 
-        //public Service? Service { get; set; }
+        public Service? Service { get; set; }
+
+        public int Tal { get; set; }
 
 
         public Car() { }
@@ -36,37 +38,37 @@ namespace DataAccessCore.Model
             Synet = synet;
         }
 
-        //public void SetService(Service service)
-        //{
-        //    if(Service != service)
-        //    {
-        //        Service = service;
-        //    }
-        //}
+        public void SetService(Service service)
+        {
+            if (Service != service)
+            {
+                Service = service;
+            }
+        }
 
-        //public void RemoveService(Service service)
-        //{
-        //    if(Service != null)
-        //    {
-        //        Service = null;
-        //    }
-        //}
+        public void RemoveService(Service service)
+        {
+            if (Service != null)
+            {
+                Service = null;
+            }
+        }
 
-        //public void addPerson(Person person)
-        //{
-        //    if (!Owners.Contains(person))
-        //    {
-        //        Owners.Add(person);
-        //    }
-        //}
+        public void addPerson(Person person)
+        {
+            if (!Owners.Contains(person))
+            {
+                Owners.Add(person);
+            }
+        }
 
-        //public void removePerson(Person person)
-        //{
-        //    if (Owners.Contains(person))
-        //    {
-        //       Owners.Remove(person);
-        //    }
-        //}
+        public void removePerson(Person person)
+        {
+            if (Owners.Contains(person))
+            {
+                Owners.Remove(person);
+            }
+        }
 
     }
 }

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessCore.Context
 {
-    internal class CarContext : DbContext
+    public class CarContext : DbContext
     {
 
         public CarContext()
@@ -38,10 +38,7 @@ namespace DataAccessCore.Context
             });
         }
 
-
-        public DbSet<Car> Cars { get; set; }
-        public DbSet<Person> Owners { get; set; }
-        public DbSet<Service> Services {get; set; }
+        public DbSet<Car> Cars { get; set;}
 
     }
 }

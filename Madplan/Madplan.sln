@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BilhusUI", "Madplan\BilhusUI.csproj", "{66AFF9C3-1EC7-4FA4-AF91-BB3A3014F88D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{69477214-0EBB-46A2-B423-3D5F53B9F8AD} = {69477214-0EBB-46A2-B423-3D5F53B9F8AD}
+		{AED15967-91D6-45C5-93D7-B246B70E4B4B} = {AED15967-91D6-45C5-93D7-B246B70E4B4B}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLogicCore", "BusinessLogicCore\BusinessLogicCore.csproj", "{535A0DC6-9DA1-473C-93C0-6D797A1041B0}"
 EndProject
@@ -11,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessCore", "DataAcces
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTOCore", "DTOCore\DTOCore.csproj", "{69477214-0EBB-46A2-B423-3D5F53B9F8AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilhusOnline", "BilhusOnline\BilhusOnline.csproj", "{F7E7138C-89ED-4325-B246-1CE5642D9449}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BilhusOnline", "BilhusOnline\BilhusOnline.csproj", "{F7E7138C-89ED-4325-B246-1CE5642D9449}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

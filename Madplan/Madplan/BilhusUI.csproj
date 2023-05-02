@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BusinessLogicCore\BusinessLogicCore.csproj" />
+	<ProjectReference Include="..\BusinessLogicCore\BusinessLogicCore.csproj" />
   </ItemGroup>
 
 </Project>
