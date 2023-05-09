@@ -13,7 +13,8 @@ namespace DataAccessCore.Model
         public string Age { get; set; }
         public List<Car>? OwnedCars { get; set; }
 
-        public Person(string name, string age, List<Car>? ownedCars)
+        public Person(){ }
+        public Person(string name, string age)
         {
             Name = name;
             Age = age;

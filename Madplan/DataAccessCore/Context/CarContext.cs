@@ -1,5 +1,6 @@
 ﻿using DataAccessCore.Model;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore.Storage;
 using System;
 using System.Collections.Generic;
@@ -10,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessCore.Context
 {
-    public class CarContext : DbContext
+    internal class CarContext : DbContext
     {
 
         public CarContext()
@@ -39,6 +40,8 @@ namespace DataAccessCore.Context
         }
 
         public DbSet<Car> Cars { get; set;}
+        public DbSet<Service> Services { get;set;} 
+        public DbSet<Person> Owners { get; set;}
 
     }
 }

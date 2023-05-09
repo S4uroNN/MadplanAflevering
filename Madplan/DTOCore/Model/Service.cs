@@ -11,6 +11,8 @@ namespace DTOCore.Model
         public int Id { get; set; }
         public string Address { get; set; }
         public List<Car>? cars { get; set; }
+
+        public Service(){ }
         public Service(string adress)
         {
             adress = Address;
