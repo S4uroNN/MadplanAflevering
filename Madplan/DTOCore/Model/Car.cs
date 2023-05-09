@@ -14,11 +14,31 @@ namespace DTOCore.Model
         public string Make { get; set; }
         public string Model { get; set; }
         public int? Milage { get; set; }
-        //public List<Person>? Owners { get; set; }
+        public List<Person>? Owners { get; set; }
 
         public int Year { get; set; }
-        public DateTime? Synet { get; set; }
-        //public Service Service { get; set; }
+        public DateTime? MOT { get ; set; }
+        public Service Service { get; set; }
+
+        public bool HasMOT
+        {
+            get
+            {
+                bool SynetBool = false;
+                DateTime now = DateTime.Now;
+
+                if (now.Year - Year <= 4)
+                {
+                    SynetBool = true;
+                }
+                else if (now.Year - Year >= 4 && now.Year - MOT.Value.Year <= 2)
+                {
+                    SynetBool = true;
+                }
+
+                return SynetBool;
+            }
+        }
 
 
         public Car(int id, string make, string model, int? milage, int year, DateTime? synet)
@@ -28,7 +48,7 @@ namespace DTOCore.Model
             Model = model;
             Milage = milage;
             Year = year;
-            Synet = synet;
+            MOT = synet;
         }
         public Car(string make, string model, int? milage, int year, DateTime? synet)
         {
@@ -36,40 +56,40 @@ namespace DTOCore.Model
             Model = model;
             Milage = milage;
             Year = year;
-            Synet = synet;
+            MOT = synet;
         }
 
-        //public void SetService(Service service)
-        //{
-        //    if (Service != service)
-        //    {
-        //        Service = service;
-        //    }
-        //}
+        public void SetService(Service service)
+        {
+            if (Service != service)
+            {
+                Service = service;
+            }
+        }
 
-        //public void RemoveService(Service service)
-        //{
-        //    if (Service != null)
-        //    {
-        //        Service = null;
-        //    }
-        //}
+        public void RemoveService(Service service)
+        {
+            if (Service != null)
+            {
+                Service = null;
+            }
+        }
 
-        //public void addPerson(Person person)
-        //{
-        //    if (!Owners.Contains(person))
-        //    {
-        //        Owners.Add(person);
-        //    }
-        //}
+        public void addPerson(Person person)
+        {
+            if (!Owners.Contains(person))
+            {
+                Owners.Add(person);
+            }
+        }
 
-        //public void removePerson(Person person)
-        //{
-        //    if (Owners.Contains(person))
-        //    {
-        //        Owners.Remove(person);
-        //    }
-        //}
+        public void removePerson(Person person)
+        {
+            if (Owners.Contains(person))
+            {
+                Owners.Remove(person);
+            }
+        }
 
 
 

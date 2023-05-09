@@ -14,11 +14,11 @@ namespace DataAccessCore.Mapper
     {
         public static DTOCore.Model.Car Map(Car car)
         {
-            return new DTOCore.Model.Car(car.ID, car.Make, car.Model, car.Milage,car.Year,car.Synet);
+            return new DTOCore.Model.Car(car.ID, car.Make, car.Model, car.Milage,car.Year,car.MOT);
         }
         public static Car Map(DTOCore.Model.Car car)
         {
-            return new Car(car.ID, car.Make, car.Model, car.Milage, car.Year, car.Synet);
+            return new Car(car.ID, car.Make, car.Model, car.Milage, car.Year, car.MOT);
         }
 
 
@@ -37,7 +37,7 @@ namespace DataAccessCore.Mapper
             datacar.Make = car.Make;
             datacar.Model = car.Model;
             datacar.Milage = car.Milage;
-            datacar.Synet = car.Synet;
+            datacar.MOT = car.MOT;
         }
 
 

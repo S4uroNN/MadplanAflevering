@@ -12,12 +12,9 @@ namespace DataAccessCore.Model
         public int? Milage { get; set; }
         public List<Person>? Owners { get; set; }
         public int Year { get; set; }
-        public DateTime? Synet { get; set; }
+        public DateTime? MOT { get; set; }
 
         public Service? Service { get; set; }
-
-        public int Tal { get; set; }
-
 
         public Car() { }
         public Car(int id, string make, string model, int? milage, int year, DateTime? synet)
@@ -27,7 +24,7 @@ namespace DataAccessCore.Model
             Model = model;
             Milage = milage;
             Year = year;
-            Synet = synet;
+            MOT = synet;
         }
         public Car(string make, string model, int? milage, int year, DateTime? synet)
         {
@@ -35,8 +32,10 @@ namespace DataAccessCore.Model
             Model = model;
             Milage = milage;
             Year = year;
-            Synet = synet;
+            MOT = synet;
         }
+
+        
 
         public void SetService(Service service)
         {

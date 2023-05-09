@@ -26,15 +26,17 @@ namespace Madplan
     public partial class MainWindow : Window
     {
         private CarBLL _bll = new CarBLL();
-        private Car _car;
 
         private ObservableCollection<Car> _carList;
-       
+        public Car _car;
+
+
         public MainWindow()
         {
             InitializeComponent();
             UpdateLists();
-
+            _car = (Car)carList.SelectedItem;
+            
         }
 
         private void btnAdd_Click(object sender, RoutedEventArgs e)
