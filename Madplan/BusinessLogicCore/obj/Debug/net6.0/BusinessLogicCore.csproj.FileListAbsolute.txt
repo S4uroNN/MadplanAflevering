@@ -55,3 +55,22 @@ D:\Users\OneDrive\4. Sem\Aflevering\Madplan\BusinessLogicCore\obj\Debug\net6.0\r
 D:\Users\OneDrive\4. Sem\Aflevering\Madplan\BusinessLogicCore\obj\Debug\net6.0\BusinessLogicCore.pdb
 D:\Users\OneDrive\4. Sem\Aflevering\Madplan\BusinessLogicCore\obj\Debug\net6.0\BusinessLogicCore.genruntimeconfig.cache
 D:\Users\OneDrive\4. Sem\Aflevering\Madplan\BusinessLogicCore\obj\Debug\net6.0\ref\BusinessLogicCore.dll
+C:\Users\Alin\Desktop\Aflevering\Madplan\BusinessLogicCore\bin\Debug\net6.0\BusinessLogicCore.deps.json
+C:\Users\Alin\Desktop\Aflevering\Madplan\BusinessLogicCore\bin\Debug\net6.0\BusinessLogicCore.runtimeconfig.json
+C:\Users\Alin\Desktop\Aflevering\Madplan\BusinessLogicCore\bin\Debug\net6.0\BusinessLogicCore.dll
+C:\Users\Alin\Desktop\Aflevering\Madplan\BusinessLogicCore\bin\Debug\net6.0\BusinessLogicCore.pdb
+C:\Users\Alin\Desktop\Aflevering\Madplan\BusinessLogicCore\bin\Debug\net6.0\DataAccessCore.dll
+C:\Users\Alin\Desktop\Aflevering\Madplan\BusinessLogicCore\bin\Debug\net6.0\DTOCore.dll
+C:\Users\Alin\Desktop\Aflevering\Madplan\BusinessLogicCore\bin\Debug\net6.0\DataAccessCore.pdb
+C:\Users\Alin\Desktop\Aflevering\Madplan\BusinessLogicCore\bin\Debug\net6.0\DTOCore.pdb
+C:\Users\Alin\Desktop\Aflevering\Madplan\BusinessLogicCore\obj\Debug\net6.0\BusinessLogicCore.csproj.AssemblyReference.cache
+C:\Users\Alin\Desktop\Aflevering\Madplan\BusinessLogicCore\obj\Debug\net6.0\BusinessLogicCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alin\Desktop\Aflevering\Madplan\BusinessLogicCore\obj\Debug\net6.0\BusinessLogicCore.AssemblyInfoInputs.cache
+C:\Users\Alin\Desktop\Aflevering\Madplan\BusinessLogicCore\obj\Debug\net6.0\BusinessLogicCore.AssemblyInfo.cs
+C:\Users\Alin\Desktop\Aflevering\Madplan\BusinessLogicCore\obj\Debug\net6.0\BusinessLogicCore.csproj.CoreCompileInputs.cache
+C:\Users\Alin\Desktop\Aflevering\Madplan\BusinessLogicCore\obj\Debug\net6.0\BusinessLogicCore.csproj.CopyComplete
+C:\Users\Alin\Desktop\Aflevering\Madplan\BusinessLogicCore\obj\Debug\net6.0\BusinessLogicCore.dll
+C:\Users\Alin\Desktop\Aflevering\Madplan\BusinessLogicCore\obj\Debug\net6.0\refint\BusinessLogicCore.dll
+C:\Users\Alin\Desktop\Aflevering\Madplan\BusinessLogicCore\obj\Debug\net6.0\BusinessLogicCore.pdb
+C:\Users\Alin\Desktop\Aflevering\Madplan\BusinessLogicCore\obj\Debug\net6.0\BusinessLogicCore.genruntimeconfig.cache
+C:\Users\Alin\Desktop\Aflevering\Madplan\BusinessLogicCore\obj\Debug\net6.0\ref\BusinessLogicCore.dll

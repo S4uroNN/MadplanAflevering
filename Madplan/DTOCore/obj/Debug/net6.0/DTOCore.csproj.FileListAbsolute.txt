@@ -40,3 +40,17 @@ D:\Users\OneDrive\4. Sem\Aflevering\Madplan\DTOCore\obj\Debug\net6.0\refint\DTOC
 D:\Users\OneDrive\4. Sem\Aflevering\Madplan\DTOCore\obj\Debug\net6.0\DTOCore.pdb
 D:\Users\OneDrive\4. Sem\Aflevering\Madplan\DTOCore\obj\Debug\net6.0\DTOCore.genruntimeconfig.cache
 D:\Users\OneDrive\4. Sem\Aflevering\Madplan\DTOCore\obj\Debug\net6.0\ref\DTOCore.dll
+C:\Users\Alin\Desktop\Aflevering\Madplan\DTOCore\bin\Debug\net6.0\DTOCore.deps.json
+C:\Users\Alin\Desktop\Aflevering\Madplan\DTOCore\bin\Debug\net6.0\DTOCore.runtimeconfig.json
+C:\Users\Alin\Desktop\Aflevering\Madplan\DTOCore\bin\Debug\net6.0\DTOCore.dll
+C:\Users\Alin\Desktop\Aflevering\Madplan\DTOCore\bin\Debug\net6.0\DTOCore.pdb
+C:\Users\Alin\Desktop\Aflevering\Madplan\DTOCore\obj\Debug\net6.0\DTOCore.csproj.AssemblyReference.cache
+C:\Users\Alin\Desktop\Aflevering\Madplan\DTOCore\obj\Debug\net6.0\DTOCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alin\Desktop\Aflevering\Madplan\DTOCore\obj\Debug\net6.0\DTOCore.AssemblyInfoInputs.cache
+C:\Users\Alin\Desktop\Aflevering\Madplan\DTOCore\obj\Debug\net6.0\DTOCore.AssemblyInfo.cs
+C:\Users\Alin\Desktop\Aflevering\Madplan\DTOCore\obj\Debug\net6.0\DTOCore.csproj.CoreCompileInputs.cache
+C:\Users\Alin\Desktop\Aflevering\Madplan\DTOCore\obj\Debug\net6.0\DTOCore.dll
+C:\Users\Alin\Desktop\Aflevering\Madplan\DTOCore\obj\Debug\net6.0\refint\DTOCore.dll
+C:\Users\Alin\Desktop\Aflevering\Madplan\DTOCore\obj\Debug\net6.0\DTOCore.pdb
+C:\Users\Alin\Desktop\Aflevering\Madplan\DTOCore\obj\Debug\net6.0\DTOCore.genruntimeconfig.cache
+C:\Users\Alin\Desktop\Aflevering\Madplan\DTOCore\obj\Debug\net6.0\ref\DTOCore.dll

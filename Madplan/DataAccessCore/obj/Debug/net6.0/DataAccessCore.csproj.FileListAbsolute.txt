@@ -49,3 +49,20 @@ D:\Users\OneDrive\4. Sem\Aflevering\Madplan\DataAccessCore\obj\Debug\net6.0\refi
 D:\Users\OneDrive\4. Sem\Aflevering\Madplan\DataAccessCore\obj\Debug\net6.0\DataAccessCore.pdb
 D:\Users\OneDrive\4. Sem\Aflevering\Madplan\DataAccessCore\obj\Debug\net6.0\DataAccessCore.genruntimeconfig.cache
 D:\Users\OneDrive\4. Sem\Aflevering\Madplan\DataAccessCore\obj\Debug\net6.0\ref\DataAccessCore.dll
+C:\Users\Alin\Desktop\Aflevering\Madplan\DataAccessCore\bin\Debug\net6.0\DataAccessCore.deps.json
+C:\Users\Alin\Desktop\Aflevering\Madplan\DataAccessCore\bin\Debug\net6.0\DataAccessCore.runtimeconfig.json
+C:\Users\Alin\Desktop\Aflevering\Madplan\DataAccessCore\bin\Debug\net6.0\DataAccessCore.dll
+C:\Users\Alin\Desktop\Aflevering\Madplan\DataAccessCore\bin\Debug\net6.0\DataAccessCore.pdb
+C:\Users\Alin\Desktop\Aflevering\Madplan\DataAccessCore\bin\Debug\net6.0\DTOCore.dll
+C:\Users\Alin\Desktop\Aflevering\Madplan\DataAccessCore\bin\Debug\net6.0\DTOCore.pdb
+C:\Users\Alin\Desktop\Aflevering\Madplan\DataAccessCore\obj\Debug\net6.0\DataAccessCore.csproj.AssemblyReference.cache
+C:\Users\Alin\Desktop\Aflevering\Madplan\DataAccessCore\obj\Debug\net6.0\DataAccessCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alin\Desktop\Aflevering\Madplan\DataAccessCore\obj\Debug\net6.0\DataAccessCore.AssemblyInfoInputs.cache
+C:\Users\Alin\Desktop\Aflevering\Madplan\DataAccessCore\obj\Debug\net6.0\DataAccessCore.AssemblyInfo.cs
+C:\Users\Alin\Desktop\Aflevering\Madplan\DataAccessCore\obj\Debug\net6.0\DataAccessCore.csproj.CoreCompileInputs.cache
+C:\Users\Alin\Desktop\Aflevering\Madplan\DataAccessCore\obj\Debug\net6.0\DataAccessCore.csproj.CopyComplete
+C:\Users\Alin\Desktop\Aflevering\Madplan\DataAccessCore\obj\Debug\net6.0\DataAccessCore.dll
+C:\Users\Alin\Desktop\Aflevering\Madplan\DataAccessCore\obj\Debug\net6.0\refint\DataAccessCore.dll
+C:\Users\Alin\Desktop\Aflevering\Madplan\DataAccessCore\obj\Debug\net6.0\DataAccessCore.pdb
+C:\Users\Alin\Desktop\Aflevering\Madplan\DataAccessCore\obj\Debug\net6.0\DataAccessCore.genruntimeconfig.cache
+C:\Users\Alin\Desktop\Aflevering\Madplan\DataAccessCore\obj\Debug\net6.0\ref\DataAccessCore.dll
