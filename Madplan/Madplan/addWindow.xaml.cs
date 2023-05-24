@@ -25,8 +25,8 @@ namespace BilhusUI
         public addWindow()
         {
             InitializeComponent();
-            //int id = _bll.GetCarList().Last().ID + 1;
-            //txbID.Text = id.ToString();
+            int id = _bll.GetCarList().Last().ID + 1;
+            txbID.Text = id.ToString();
 
         }
 

@@ -70,7 +70,5 @@ namespace Madplan
             mainGrid.DataContext = _carList;
 
         }
-
-        
     }
 }

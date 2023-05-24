@@ -17,6 +17,7 @@ namespace DataAccessCore.Model
         {
             Address = address;
         }
+        public Service() { }
 
         public Service(int id, string address)
         {
