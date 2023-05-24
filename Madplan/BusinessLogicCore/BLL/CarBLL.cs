@@ -24,5 +24,34 @@ namespace BusinessLogicCore.BLL
         {
             CarRepos.DeleteCar(car);
         }
+
+        public ObservableCollection<Person> GetPersonel()
+        {
+            return PersonRepos.GetToList();
+        }
+
+        public void AddPerson(Person person)
+        {
+            PersonRepos.AddPerson(person);
+        }
+        public void RemovePerson(Person person)
+        {
+            PersonRepos.DeletePerson(person);
+        }
+
+        public Service GetService(int id)
+        {
+            return ServiceRepos.GetService(id);
+        }
+
+        public void AddCarToService(Service service, Car car)
+        {
+            ServiceRepos.AddCarToService(service, car);  
+        }
+
+        public ObservableCollection<Car> GetCarsInService()
+        {
+            return CarRepos.GetCarsInService();
+        }
     }
 }

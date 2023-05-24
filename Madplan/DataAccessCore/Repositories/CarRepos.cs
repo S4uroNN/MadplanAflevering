@@ -15,7 +15,7 @@ namespace DataAccessCore.Repositories
     {
         public static Car GetCar(string make)
         {
-            
+
             using (CarContext context = new CarContext())
             {
                 return CarMapper.Map(context.Cars.Find(make));
@@ -42,7 +42,7 @@ namespace DataAccessCore.Repositories
 
         public static void EditCar(Car car)
         {
-            using(CarContext context = new CarContext())
+            using (CarContext context = new CarContext())
             {
                 Model.Car datacar = context.Cars.Find(car.ID);
                 CarMapper.Update(car, datacar);
@@ -51,14 +51,24 @@ namespace DataAccessCore.Repositories
             }
         }
 
-        public static void DeleteCar(Car car) 
+        public static void DeleteCar(Car car)
         {
-           using(CarContext context = new CarContext())
+            using (CarContext context = new CarContext())
             {
                 Model.Car datacar = context.Cars.Find(car.ID);
                 context.Cars.Remove(datacar);
                 context.SaveChanges();
             }
         }
+        public static ObservableCollection<Car> GetCarsInService()
+        {
+            using (CarContext context = new CarContext())
+            {
+                return CarMapper.Map(context.Cars.Where(e => e.Service.ID == 1).ToList());
+
+            }
+        }
+
     }
 }
+

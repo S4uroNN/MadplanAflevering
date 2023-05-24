@@ -12,15 +12,20 @@ namespace DTOCore.Model
         public string Address { get; set; }
         public List<Car>? cars { get; set; }
 
-        public Service(){ }
+        public Service()
+        {
+            cars = new List<Car>();
+        }
         public Service(string adress)
         {
             adress = Address;
+            cars = new List<Car>();
         }
         public Service(int ID, string adress) 
         {
             Id = ID;
             Address = adress;
+            cars = new List<Car>();
         }
 
         public void Addcar(Car car)

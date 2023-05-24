@@ -148,3 +148,7 @@ C:\Users\Alin\OneDrive\4. Sem\Aflevering\Madplan\Madplan\obj\Debug\net6.0-window
 C:\Users\Alin\OneDrive\4. Sem\Aflevering\Madplan\Madplan\obj\Debug\net6.0-windows\EditWindow.baml
 D:\Users\OneDrive\4. Sem\Aflevering\Madplan\Madplan\obj\Debug\net6.0-windows\EditWindow.g.cs
 D:\Users\OneDrive\4. Sem\Aflevering\Madplan\Madplan\obj\Debug\net6.0-windows\EditWindow.baml
+D:\Users\OneDrive\4. Sem\Aflevering\Madplan\Madplan\obj\Debug\net6.0-windows\AddPersonel.g.cs
+D:\Users\OneDrive\4. Sem\Aflevering\Madplan\Madplan\obj\Debug\net6.0-windows\AddPersonel.baml
+D:\Users\OneDrive\4. Sem\Aflevering\Madplan\Madplan\obj\Debug\net6.0-windows\AddCarToService.g.cs
+D:\Users\OneDrive\4. Sem\Aflevering\Madplan\Madplan\obj\Debug\net6.0-windows\AddCarToService.baml
