@@ -3575,11 +3575,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alin\\Desktop\\Aflevering\\Madplan\\Madplan\\BilhusUI.csproj",
+      "projectUniqueName": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\Madplan\\BilhusUI.csproj",
       "projectName": "BilhusUI",
-      "projectPath": "C:\\Users\\Alin\\Desktop\\Aflevering\\Madplan\\Madplan\\BilhusUI.csproj",
+      "projectPath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\Madplan\\BilhusUI.csproj",
       "packagesPath": "C:\\Users\\Alin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alin\\Desktop\\Aflevering\\Madplan\\Madplan\\obj\\",
+      "outputPath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\Madplan\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3596,8 +3596,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\Alin\\Desktop\\Aflevering\\Madplan\\BusinessLogicCore\\BusinessLogicCore.csproj": {
-              "projectPath": "C:\\Users\\Alin\\Desktop\\Aflevering\\Madplan\\BusinessLogicCore\\BusinessLogicCore.csproj"
+            "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\BusinessLogicCore\\BusinessLogicCore.csproj": {
+              "projectPath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\BusinessLogicCore\\BusinessLogicCore.csproj"
             }
           }
         }
@@ -3646,7 +3646,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
