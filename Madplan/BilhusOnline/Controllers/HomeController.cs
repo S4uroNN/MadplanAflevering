@@ -3,6 +3,7 @@ using BusinessLogicCore.BLL;
 using DTOCore.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Diagnostics;
 
 namespace BilhusOnline.Controllers
 {
@@ -23,6 +24,14 @@ namespace BilhusOnline.Controllers
         [HttpPost]
         public IActionResult Index(CarViewModel model)
         {
+            foreach (var modelStateEntry in ModelState.Values)
+            {
+                foreach (var error in modelStateEntry.Errors)
+                {
+                    Debug.WriteLine(error.ErrorMessage);
+                }
+            }
+
             if (ModelState.IsValid)
             {
                 CarViewModel carViewModel = new CarViewModel()
@@ -39,11 +48,11 @@ namespace BilhusOnline.Controllers
                 
                 _bll.AddCar(car);
 
-                return View();
+                return RedirectToAction("Index");
             }
            
 
-            return View();
+            return RedirectToAction("Index");
         }
     }
 }
