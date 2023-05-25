@@ -22,11 +22,19 @@ namespace DataAccessCore.Repositories
             }
         }
 
-        public static ObservableCollection<Car> GetToList()
+        public static ObservableCollection<Car> GetToListObserver()
         {
             using (CarContext context = new CarContext())
             {
                 return CarMapper.Map(context.Cars.ToList());
+
+            }
+        }
+        public static List<Car> GetToList()
+        {
+            using (CarContext context = new CarContext())
+            {
+                return CarMapper.MapList(context.Cars.ToList());
 
             }
         }

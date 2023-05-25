@@ -1,0 +1,106 @@
+﻿@model CarViewModel
+@{
+
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="div1">
+            <h2>Inventory</h2>
+            <select id="carDropDown" size="10">
+                @foreach (var item in Model.Itemlist)
+                {
+                    <option>@item.ToString()</option>
+                }
+            </select>
+            <br />
+        </div>
+
+        <div class="div2">
+            <h2>Add Car</h2>
+
+            @*@using (Html.BeginForm("Index", "Home"))
+            {
+                @Html.ValidationSummary(true, "",new { @class = "text-danger"})
+
+                @Html.LabelFor(model => model.Make, "Make")
+                @Html.TextBoxFor(model => model.Make)
+                @Html.ValidationMessageFor(model => model.Make, "", new { @class = "text-danger" })
+
+                <br />
+                @Html.LabelFor(model => model.Model, "Model")
+                @Html.TextBoxFor(model => model.Model)
+                @Html.ValidationMessageFor(model => model.Model, "", new { @class = "text-danger" })
+
+
+                <br />
+                @Html.LabelFor(model => model.Milage, "Milage")
+                @Html.TextBoxFor(model => model.Milage)
+                @Html.ValidationMessageFor(model => model.Milage, "", new { @class = "text-danger" })
+
+                <br />
+
+                @Html.LabelFor(model => model.Year, "Year")
+                @Html.TextBoxFor(model => model.Year)
+                @Html.ValidationMessageFor(model => model.Year, "", new { @class = "text-danger" })
+
+                <input type="submit" value="Add Car" />
+            }*@
+            @using (Html.BeginForm("Index","Home",FormMethod.Post))
+{
+    @*@Html.AntiForgeryToken()*@
+    
+    <div class="form-horizontal">
+        <h4>Person</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.Make, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Make, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Make, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Model, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Model, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Model, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Year, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Year, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Year, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create"/>
+            </div>
+        </div>
+    </div>
+}
+
+            <br />
+        </div>
+    </div>
+</body>
+</html>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

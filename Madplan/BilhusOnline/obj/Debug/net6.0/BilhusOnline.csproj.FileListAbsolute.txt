@@ -866,3 +866,7 @@ C:\Users\Alin\Desktop\Aflevering\Madplan\BilhusOnline\bin\Debug\net6.0\System.Li
 C:\Users\Alin\Desktop\Aflevering\Madplan\BilhusOnline\bin\Debug\net6.0\Syncfusion.Licensing.dll
 C:\Users\Alin\Desktop\Aflevering\Madplan\BilhusOnline\bin\Debug\net6.0\Syncfusion.EJ2.dll
 C:\Users\Alin\Desktop\Aflevering\Madplan\BilhusOnline\obj\Debug\net6.0\BilhusOnline.MvcApplicationPartsAssemblyInfo.cs
+D:\Users\OneDrive\4. Sem\Aflevering\Madplan\BilhusOnline\bin\Debug\net6.0\Syncfusion.EJ2.dll
+D:\Users\OneDrive\4. Sem\Aflevering\Madplan\BilhusOnline\bin\Debug\net6.0\Syncfusion.Licensing.dll
+D:\Users\OneDrive\4. Sem\Aflevering\Madplan\BilhusOnline\bin\Debug\net6.0\System.Linq.Dynamic.Core.dll
+D:\Users\OneDrive\4. Sem\Aflevering\Madplan\BilhusOnline\obj\Debug\net6.0\BilhusOnline.MvcApplicationPartsAssemblyInfo.cs

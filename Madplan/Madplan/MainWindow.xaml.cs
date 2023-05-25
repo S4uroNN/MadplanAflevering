@@ -69,7 +69,7 @@ namespace Madplan
 
         private void UpdateLists()
         {
-            _carList = _bll.GetCarList();
+            _carList = _bll.GetCarListObserv(); 
             carList.ItemsSource = null;
             carList.ItemsSource = _carList;
             mainGrid.DataContext = _carList;

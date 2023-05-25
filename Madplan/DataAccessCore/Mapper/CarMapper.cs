@@ -31,6 +31,15 @@ namespace DataAccessCore.Mapper
             }
             return retur;
         }
+        public static List<DTOCore.Model.Car> MapList(List<Car> cars)
+        {
+            List<DTOCore.Model.Car> retur = new List<DTOCore.Model.Car>();
+            foreach (Car car in cars)
+            {
+                retur.Add(CarMapper.Map(car));
+            }
+            return retur;
+        }
 
         public static void Update(DTOCore.Model.Car car, Car datacar)
         {

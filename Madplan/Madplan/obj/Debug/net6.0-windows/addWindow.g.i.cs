@@ -108,7 +108,7 @@ namespace BilhusUI {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/BilhusUI;V1.0.0.0;component/addwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/BilhusUI;component/addwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AddWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

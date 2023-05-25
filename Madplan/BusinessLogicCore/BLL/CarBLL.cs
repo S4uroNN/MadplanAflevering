@@ -10,7 +10,11 @@ namespace BusinessLogicCore.BLL
         {
             return CarRepos.GetCar(make);
         }
-        public ObservableCollection<Car> GetCarList()
+        public ObservableCollection<Car> GetCarListObserv()
+        {
+            return CarRepos.GetToListObserver();
+        }
+        public List<Car> GetCarList()
         {
             return CarRepos.GetToList();
         }

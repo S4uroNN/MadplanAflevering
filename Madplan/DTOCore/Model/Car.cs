@@ -59,6 +59,14 @@ namespace DTOCore.Model
             MOT = synet;
         }
 
+        public Car(string make, string model, int? milage, int year) //Used for MVC Light Version
+        {
+            Make = make;
+            Model = model;
+            Milage = milage;
+            Year = year;
+        }
+
         public void SetService(Service service)
         {
             if (Service != service)
