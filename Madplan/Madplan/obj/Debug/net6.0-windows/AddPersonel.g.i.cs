@@ -85,7 +85,7 @@ namespace BilhusUI {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/BilhusUI;V1.0.0.0;component/addpersonel.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/BilhusUI;component/addpersonel.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AddPersonel.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

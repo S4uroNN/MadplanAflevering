@@ -25,6 +25,12 @@ namespace BusinessLogicCore.BLL
             CarRepos.DeleteCar(car);
         }
 
+        public void UpdateCar(Car car) 
+        {
+            CarRepos.EditCar(car);
+        }
+
+
         public ObservableCollection<Person> GetPersonel()
         {
             return PersonRepos.GetToList();

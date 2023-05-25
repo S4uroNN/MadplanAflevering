@@ -30,6 +30,7 @@ namespace DataAccessCore.Repositories
                 if(car !=null && service != null)
                 {
                     _car.Service = _service;
+                    _service.Addcar(_car);
                     context.SaveChanges();
                 }
                 

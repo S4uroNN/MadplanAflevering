@@ -1,4 +1,5 @@
-﻿using DTOCore.Model;
+﻿using BusinessLogicCore.BLL;
+using DTOCore.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +21,7 @@ namespace BilhusUI
     /// </summary>
     public partial class EditWindow : Window
     {
+        private CarBLL _bll = new CarBLL();
         Car car = null;
 
         public EditWindow()
@@ -40,7 +42,7 @@ namespace BilhusUI
 
         private void btnConfirm_Click(object sender, RoutedEventArgs e)
         {
-
+            
         }
     }
 }

@@ -862,3 +862,7 @@ C:\Users\Alin\Desktop\Aflevering\Madplan\BilhusOnline\obj\Debug\net6.0\refint\Bi
 C:\Users\Alin\Desktop\Aflevering\Madplan\BilhusOnline\obj\Debug\net6.0\BilhusOnline.pdb
 C:\Users\Alin\Desktop\Aflevering\Madplan\BilhusOnline\obj\Debug\net6.0\BilhusOnline.genruntimeconfig.cache
 C:\Users\Alin\Desktop\Aflevering\Madplan\BilhusOnline\obj\Debug\net6.0\ref\BilhusOnline.dll
+C:\Users\Alin\Desktop\Aflevering\Madplan\BilhusOnline\bin\Debug\net6.0\System.Linq.Dynamic.Core.dll
+C:\Users\Alin\Desktop\Aflevering\Madplan\BilhusOnline\bin\Debug\net6.0\Syncfusion.Licensing.dll
+C:\Users\Alin\Desktop\Aflevering\Madplan\BilhusOnline\bin\Debug\net6.0\Syncfusion.EJ2.dll
+C:\Users\Alin\Desktop\Aflevering\Madplan\BilhusOnline\obj\Debug\net6.0\BilhusOnline.MvcApplicationPartsAssemblyInfo.cs
