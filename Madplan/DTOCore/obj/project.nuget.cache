@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jv8rs6+6HIS+lIvSVkWCo5QrKq/D23RhB+pEOsA1IfvDKAQuDz6rthU7nSTShz3GN0Uk4dD8d5XLUodwVF3GLw==",
+  "dgSpecHash": "q3yW+V9FQblbYHcX924PwfKl7pFHVA/nPijs7ywmPm791Sre1C2f8qiH9Bgk6RBRl4JU57E8icuWPsrkLJ8IAA==",
   "success": true,
-  "projectFilePath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DTOCore\\DTOCore.csproj",
+  "projectFilePath": "C:\\Users\\Alin\\Desktop\\Aflevering\\Madplan\\DTOCore\\DTOCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alin\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Alin\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

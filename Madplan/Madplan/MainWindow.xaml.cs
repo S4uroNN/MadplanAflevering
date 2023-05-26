@@ -107,5 +107,12 @@ namespace Madplan
             window.ShowDialog();
             UpdateLists();
         }
+
+        private void deleteCarBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Car car = (Car)serviceCar.SelectedItem;
+            _bll.DeleteCarFromService(_bll.GetService(1), car);
+            UpdateLists();
+        }
     }
 }

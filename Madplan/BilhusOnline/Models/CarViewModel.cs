@@ -9,7 +9,7 @@ namespace BilhusOnline.Models
 
     public class CarViewModel
     {
-        public List<Car> Itemlist { get; set; }
+        public List<Car>? Itemlist { get; set; }
 
         [Required(ErrorMessage = "Please enter the make")]
         public string Make { get; set; }

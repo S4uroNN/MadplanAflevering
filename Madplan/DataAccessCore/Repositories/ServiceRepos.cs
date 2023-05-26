@@ -30,11 +30,25 @@ namespace DataAccessCore.Repositories
                 if(car !=null && service != null)
                 {
                     _car.Service = _service;
-                    _service.Addcar(_car);
                     context.SaveChanges();
                 }
                 
             }
+        }
+        public static void RemoveCarFromService(Service service, Car car)
+        {
+            using (CarContext context = new CarContext())
+            {
+                Model.Service _service = context.Services.Find(service.Id);
+                Model.Car _car = context.Cars.Find(car.ID);
+
+                if(car !=null && service !=null)
+                {
+                    _car.Service = null;
+                    context.SaveChanges();
+                }
+            }
+            
         }
 
     }

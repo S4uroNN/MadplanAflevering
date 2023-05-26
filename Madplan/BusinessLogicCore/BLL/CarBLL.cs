@@ -59,6 +59,11 @@ namespace BusinessLogicCore.BLL
             ServiceRepos.AddCarToService(service, car);  
         }
 
+        public void DeleteCarFromService(Service service, Car car)
+        {
+            ServiceRepos.RemoveCarFromService(service, car);
+        }
+
         public ObservableCollection<Car> GetCarsInService()
         {
             return CarRepos.GetCarsInService();

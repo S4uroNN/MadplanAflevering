@@ -10511,11 +10511,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\BilhusOnline\\BilhusOnline.csproj",
+      "projectUniqueName": "C:\\Users\\Alin\\Desktop\\Aflevering\\Madplan\\BilhusOnline\\BilhusOnline.csproj",
       "projectName": "BilhusOnline",
-      "projectPath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\BilhusOnline\\BilhusOnline.csproj",
+      "projectPath": "C:\\Users\\Alin\\Desktop\\Aflevering\\Madplan\\BilhusOnline\\BilhusOnline.csproj",
       "packagesPath": "C:\\Users\\Alin\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\BilhusOnline\\obj\\",
+      "outputPath": "C:\\Users\\Alin\\Desktop\\Aflevering\\Madplan\\BilhusOnline\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10532,11 +10532,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\BusinessLogicCore\\BusinessLogicCore.csproj": {
-              "projectPath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\BusinessLogicCore\\BusinessLogicCore.csproj"
+            "C:\\Users\\Alin\\Desktop\\Aflevering\\Madplan\\BusinessLogicCore\\BusinessLogicCore.csproj": {
+              "projectPath": "C:\\Users\\Alin\\Desktop\\Aflevering\\Madplan\\BusinessLogicCore\\BusinessLogicCore.csproj"
             },
-            "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DTOCore\\DTOCore.csproj": {
-              "projectPath": "D:\\Users\\OneDrive\\4. Sem\\Aflevering\\Madplan\\DTOCore\\DTOCore.csproj"
+            "C:\\Users\\Alin\\Desktop\\Aflevering\\Madplan\\DTOCore\\DTOCore.csproj": {
+              "projectPath": "C:\\Users\\Alin\\Desktop\\Aflevering\\Madplan\\DTOCore\\DTOCore.csproj"
             }
           }
         }
@@ -10591,7 +10591,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

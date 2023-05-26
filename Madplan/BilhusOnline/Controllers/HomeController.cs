@@ -22,7 +22,7 @@ namespace BilhusOnline.Controllers
             return View(_viewModel);
         }
         [HttpPost]
-        public IActionResult Index(CarViewModel model)
+        public IActionResult Index(CarViewModel _model)
         {
             foreach (var modelStateEntry in ModelState.Values)
             {
@@ -34,16 +34,7 @@ namespace BilhusOnline.Controllers
 
             if (ModelState.IsValid)
             {
-                CarViewModel carViewModel = new CarViewModel()
-                {
-                    Make = model.Make,
-                    Model = model.Model,
-                    Milage = model.Milage,
-                    Year = model.Year
-
-                };
-
-                Car car = new Car(model.Make, model.Model, model.Milage, model.Year);
+                Car car = new Car(_model.Make, _model.Model, _model.Milage, _model.Year);
 
                 
                 _bll.AddCar(car);

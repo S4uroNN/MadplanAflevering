@@ -42,7 +42,8 @@ namespace BilhusUI
 
         private void btnConfirm_Click(object sender, RoutedEventArgs e)
         {
-            
+            _bll.UpdateCar(car);
+            DialogResult = true;
         }
     }
 }

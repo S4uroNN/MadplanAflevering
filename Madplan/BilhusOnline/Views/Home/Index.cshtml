@@ -32,24 +32,24 @@
                 @Html.ValidationSummary(true, "",new { @class = "text-danger"})
 
                 @Html.LabelFor(model => model.Make, "Make")
-                @Html.TextBoxFor(model => model.Make)
+                @Html.EditorFor(model => model.Make)
                 @Html.ValidationMessageFor(model => model.Make, "", new { @class = "text-danger" })
 
                 <br />
                 @Html.LabelFor(model => model.Model, "Model")
-                @Html.TextBoxFor(model => model.Model)
+                @Html.EditorFor(model => model.Model)
                 @Html.ValidationMessageFor(model => model.Model, "", new { @class = "text-danger" })
 
 
                 <br />
                 @Html.LabelFor(model => model.Milage, "Milage")
-                @Html.TextBoxFor(model => model.Milage)
+                @Html.EditorFor(model => model.Milage)
                 @Html.ValidationMessageFor(model => model.Milage, "", new { @class = "text-danger" })
 
                 <br />
 
                 @Html.LabelFor(model => model.Year, "Year")
-                @Html.TextBoxFor(model => model.Year)
+                @Html.EditorFor(model => model.Year)
                 @Html.ValidationMessageFor(model => model.Year, "", new { @class = "text-danger" })
 
 
